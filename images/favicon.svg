@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277 280" width="60" height="61">
+	<style>
+		.s0 { fill: #ffd701;stroke: #ffd701;stroke-miterlimit:100;stroke-width: 28 } 
+		.s1 { fill: #0073b9;stroke: #0073b9;stroke-miterlimit:100;stroke-width: 28 } 
+	</style>
+	<path id="Layer 2 copy 4" class="s0" d="m120.11 34.85l-76.3 76.21-14.84-14.85 76.3-76.21zm-8.97 8.97l-76.3 76.21-14.84-14.86 76.31-76.2zm-6.68 145.18l-76.47-76.04 14.81-14.88 76.46 76.04z"/>
+	<path id="Layer 2 copy 2" class="s1" d="m156.43 244.26l76.78-75.74 14.74 14.95-76.77 75.73zm9.02-8.91l76.78-75.74 14.74 14.95-76.77 75.73zm7.57-145.14l76 76.51-14.9 14.8-75.99-76.51z"/>
+</svg>
