@@ -1,38 +1,39 @@
+/* Variabler */
+:root {
+	--color-primary: rgb(31, 31, 31);
+	--color-secondary: #005b94;
+}
+
+/* ====================================== GLOBALT ====================================== */
+
 * {
 	box-sizing: border-box;
+}
+
+body {
+	font-family: "Google Sans Flex", sans-serif;
+	line-height: 1.6;
+	font-size: 1.1rem;
+	margin: 0;
+	padding: 0;
+	color: var(--color-primary);
+	overflow-wrap: break-word; /* Kapa ord som är för långa */
 }
 
 img {
 	max-width: 100%;
 }
 
-h1,
-h2,
-h3 {
-	font-family: "Google Sans Flex", sans-serif;
-}
-
 h1 {
-	text-align: center;
+	margin-top: 1rem;
 }
 
 h2 {
-	margin: 1.5rem 0 0.5rem 0;
+	margin-top: 2rem;
 }
 
 h3 {
-	margin: 2rem 0 0.5rem 0;
-}
-
-p {
-	margin-top: 0.5rem;
-}
-
-body {
-	font-family: "Noto Serif", serif;
-	margin: 0;
-	padding: 0;
-	color: rgb(25, 25, 25);
+	margin: 2rem 0 0.7rem;
 }
 
 header,
@@ -41,41 +42,70 @@ footer {
 	padding: 2rem 5vw;
 }
 
+/* ====================================== HEADER ====================================== */
+
 header {
-	background-color: rgb(25, 25, 25);
+	background-color: var(--color-primary);
 	text-align: center;
 }
 
+/* Logga */
 header img {
 	width: 70%;
 	max-width: 18rem;
 }
+
+/* ====================================== MAIN ====================================== */
 
 main > * {
 	max-width: 40rem;
 	margin: 0 auto;
 }
 
+/* Ingresstext */
 article p {
-	font-weight: 600;
+	font-weight: 550;
 }
 
-main img {
-	margin: 0.5rem 0;
+article img {
+	margin-top: 1rem;
 }
 
+li {
+	margin: 0.4rem 0;
+}
+
+/* Citat */
 blockquote {
-	background-color: #005b94;
-	padding: 1.5rem 2rem;
+	background-color: var(--color-secondary);
+	padding: 1rem 2rem;
 	border-radius: 10px;
 	color: white;
 	font-style: italic;
-	margin: 1rem 0;
+	margin: 2rem 0 1.5rem;
 }
+
+/* ====================================== FOOTER ====================================== */
 
 footer {
 	text-align: center;
-	background-color: rgb(25, 25, 25);
+	background-color: var(--color-primary);
 	color: white;
-	font-family: "Google Sans Flex", sans-serif;
+}
+
+/* ====================================== MEDIA QUERIES ====================================== */
+
+/* Större rubriktexter på stora skärmar*/
+@media (min-width: 600px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.9rem;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+	}
 }
