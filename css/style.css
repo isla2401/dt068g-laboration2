@@ -33,7 +33,11 @@ h2 {
 }
 
 h3 {
-	margin: 2rem 0 0.7rem;
+	margin: 2rem 0 0rem;
+}
+
+p {
+	margin-top: 0.8rem;
 }
 
 header,
@@ -83,6 +87,10 @@ blockquote {
 	color: white;
 	font-style: italic;
 	margin: 2rem 0 1.5rem;
+}
+
+blockquote p {
+	margin: 1rem 0;
 }
 
 /* ====================================== FOOTER ====================================== */
